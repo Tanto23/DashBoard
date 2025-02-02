@@ -8,7 +8,7 @@ exports.getEmployeeDashboard = async (req, res) => {
 
         res.json({ employeeDashboards });
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(500).json({ error: error.message }); 
     }
 };
 
