@@ -1,0 +1,1 @@
+npx sequelize-cli model:generate --name Employee_Dashboard --attributes Name:string,Position:string,Email:string,id:string
